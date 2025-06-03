@@ -39,7 +39,7 @@ export default function ServicesSection() {
                 </h2>
 
                 <p className="text-gray-300 text-base sm:text-lg leading-relaxed">
-                    I'm always up for a challenge—whether it's building an app from scratch,
+                    I&apos;`m always up for a challenge—whether it&apos;`s building an app from scratch,
                     optimizing your business workflow, or designing a digital brand presence.
                     No problem is too small or too complex.
                 </p>
@@ -55,7 +55,7 @@ export default function ServicesSection() {
                 </ul>
 
                 <p className="text-gray-300 text-base sm:text-lg leading-relaxed mt-6">
-                    If you have an idea or issue you'd like help with, email me and we'll
+                    If you have an idea or issue you&apos;`d like help with, email me and we&apos;`ll
                     schedule a <span className="text-blue-400 font-medium">free consultation</span>.
                     Pricing varies based on the scope and complexity of your project.
                 </p>
