@@ -1,0 +1,66 @@
+/* File: /components/Resume/educationShimmer.module.css */
+
+.ugaShimmer {
+    background: linear-gradient(
+            90deg,
+            #ff3c3c,
+            #f16464,
+            #ff3c3c
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shimmer 3s linear infinite;
+}
+
+.fredericaShimmer {
+    background: linear-gradient(
+            90deg,
+            #2eff74,
+            #157032,
+            #2eff74
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shimmer 3s linear infinite;
+}
+
+.oracleShimmer {
+    background: linear-gradient(
+            90deg,
+            #d54001,
+            #ff8e67,
+            #d54001
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shimmer 3s linear infinite;
+}
+
+.adpShimmer {
+    background: linear-gradient(
+            90deg,
+            #f80202,
+            #ff7b7b,
+            #f80202
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -100% center;
+    }
+    100% {
+        background-position: 100% center;
+    }
+}
