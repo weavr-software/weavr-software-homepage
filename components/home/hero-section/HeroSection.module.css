@@ -1,22 +1,17 @@
 .backgroundWrapper {
-    position: fixed; /* fixed so it stays behind everything */
+    position: fixed;
     inset: 0;
     z-index: -10;
     pointer-events: none;
 }
 
-/* NEW: horizontal clipper only clips X, not Y */
 .horizontalClipper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     overflow-x: hidden;
     width: 100%;
-    height: 100vh; /* can also try 100% if you want full scroll height */
+    height: 100%;
+    position: relative;
 }
 
-/* The spinning background */
 .gradientBackground {
     position: absolute;
     top: -100%;
@@ -34,4 +29,26 @@
     opacity: 0.3;
     filter: blur(120px) saturate(200%);
     z-index: -10;
+    pointer-events: none;
+    will-change: transform;
+}
+
+/* ✅ Mobile-optimized version */
+@media (max-width: 768px) {
+    .gradientBackground {
+        width: 150%;
+        height: 150%;
+        top: -25%;
+        left: -25%;
+        filter: blur(60px) saturate(150%);
+    }
+}
+
+@keyframes spinBackground {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
