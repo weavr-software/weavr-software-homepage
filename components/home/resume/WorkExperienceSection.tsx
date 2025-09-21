@@ -26,8 +26,8 @@ export default function WorkExperienceSection() {
     const jobs = [
         {
             company: "Oracle",
-            role: "Incoming Software Engineer",
-            dates: "Starting July 2025",
+            role: "Software Engineer",
+            dates: "July 2025-Present",
             logo: "/oracle-logo.png",
             shimmer: styles.oracleShimmer,
         },
@@ -55,11 +55,11 @@ export default function WorkExperienceSection() {
                         transition={{ delay: index * 0.4, type: "spring", stiffness: 120 }}
                         className="flex items-center gap-4"
                     >
-                        <Image src={job.logo} alt={`${job.company} logo`} width={40} height={40} />
+                        <Image src={job.logo} alt={`${job.company} logo`} width={80} height={80} />
                         <div className="flex flex-col">
-                            <h3 className={`text-lg font-bold ${job.shimmer}`}>{job.company}</h3>
-                            <p className="text-gray-300 italic text-sm">{job.role}</p>
-                            <p className="text-gray-400 text-xs">{job.dates}</p>
+                            <h3 className={`text-4xl font-bold ${job.shimmer}`}>{job.company}</h3>
+                            <p className="text-gray-300 text-xl italic text-sm">{job.role}</p>
+                            <p className="text-gray-400 text-md">{job.dates}</p>
                         </div>
                     </motion.div>
                 ))}

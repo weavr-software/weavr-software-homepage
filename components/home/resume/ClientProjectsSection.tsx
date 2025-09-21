@@ -23,6 +23,14 @@ const clientProjects = [
         description:
             "Taylor Made Training is a professional fitness and coaching site offering, coach profiles, a photo gallery, and testimonials.",
     },
+    {
+        name: "comfurtable",
+        url: "https://comfurtable.vercel.app",
+        logo: "/comfurtable-landing.png",
+        screenshot: "/comfurtable-landing.png",
+        description:
+            "Comfurtable is a pet services business that offers end of life care for pets.",
+    },
 ];
 
 export default function ClientProjectsSection() {

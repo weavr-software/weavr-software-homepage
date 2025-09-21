@@ -21,8 +21,8 @@ export default function HeroSection() {
                 </h1>
 
                 <p className="max-w-xl text-gray-300 text-sm sm:text-base">
-                    Weavr Software is a boutique consulting firm helping startups and enterprises
-                    launch scalable products—on time, on budget, and with pixel-perfect precision.
+                    Weavr Software is a boutique consulting firm helping startups
+                    launch scalable products, on time, on budget, and with pixel-perfect precision.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -30,7 +30,7 @@ export default function HeroSection() {
                         href="#services"
                         className="bg-white text-black px-6 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition"
                     >
-                        Contact Us
+                        Contact Me
                     </Link>
                     <Link
                         href="#client-projects"
